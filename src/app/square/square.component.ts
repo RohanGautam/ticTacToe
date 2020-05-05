@@ -3,9 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-square',
   template: `
-  <p>
     <button>{{ value }}</button>
-  </p>
   `,
   styleUrls: ['./square.component.scss']
 })

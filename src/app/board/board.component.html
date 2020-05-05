@@ -1,0 +1,15 @@
+<!-- we're getting player from the getter -->
+<h1>Current Player is {{player}} </h1>
+
+<button (click)="newGame()">Start new game</button>
+
+<h2 *ngIf="winner">
+    Player {{winner}} won!!
+</h2>
+
+<main>
+    <app-square *ngFor="let move of squares; let i = index"
+    [value]="move"
+    (click)="makeMove(i)">
+    </app-square>
+</main>
