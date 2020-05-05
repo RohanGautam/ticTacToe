@@ -2,6 +2,7 @@
 [Youtube tutorial followed](https://www.youtube.com/watch?v=G0bBLvWXBvc) by Fireship.
 ## Screenshot:
 ![ttt](https://user-images.githubusercontent.com/17317792/81046356-cc578280-8eea-11ea-9cc4-506f57525ab8.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 
